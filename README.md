@@ -1,3 +1,5 @@
+
+```markdown
 # Guardião Mobile 🛡️
 
 Um aplicativo Android multifuncional focado em **Segurança, Privacidade e Utilitários de Mídia**. O Guardião Mobile atua como um escudo local para o seu dispositivo, combinando um Firewall VPN interceptador de anúncios, um Antivírus de varredura profunda e um motor avançado de download e extração de mídia.
@@ -35,3 +37,17 @@ Clone o repositório e compile pelo terminal:
 git clone [https://github.com/VictorEduardo-coder/GuardiaoMobile.git](https://github.com/VictorEduardo-coder/GuardiaoMobile.git)
 cd GuardiaoMobile
 ./gradlew assembleDebug
+
+```
+
+## 📖 Como Usar
+
+* **Baixar Mídia:** Abra qualquer rede social (YouTube, Spotify, etc.), toque em "Compartilhar", escolha o "Guardião Mobile" e selecione se deseja Vídeo (.mp4), Áudio (.mp3) ou Foto (.jpg).
+* **Verificar Vírus e Memória:** Abra o aplicativo, vá até a aba **Antivírus** e toque em "Executar Varredura Antivírus Completa". Vá até a aba **Memória** para checar os processos em segundo plano.
+* **Ativar VPN:** Na aba **VPN**, selecione o país desejado e ative a chave. O Android pedirá permissão de criação de VPN local. Aceite para iniciar o bloqueio de anúncios.
+
+## 🔐 Privacidade e Segurança
+
+Todo o processamento do Guardião Mobile (análise de vírus, cálculos de hash SHA-256, extração de mídia e filtragem de DNS) ocorre **localmente no seu dispositivo**. O aplicativo atua como um túnel local (`10.1.10.1`) e não transmite seus dados de tráfego, senhas ou arquivos para servidores externos.
+
+
