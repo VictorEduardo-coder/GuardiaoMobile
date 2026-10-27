@@ -46,6 +46,7 @@ Clone o repositório e compile pelo terminal:
 git clone [https://github.com/VictorEduardo-coder/GuardiaoMobile.git](https://github.com/VictorEduardo-coder/GuardiaoMobile.git)
 cd GuardiaoMobile
 ./gradlew assembleDebug
+```
 
 O arquivo .apk gerado estará disponível em app/build/outputs/apk/debug/.
 
